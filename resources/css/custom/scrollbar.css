@@ -1,0 +1,37 @@
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Hide scrollbar for WebKit browsers */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Show scrollbar on hover */
+.scrollbar-on-hover:hover::-webkit-scrollbar {
+    display: block;
+}
+
+.scrollbar-on-hover:hover {
+    -ms-overflow-style: auto;  /* IE 10+ */
+    scrollbar-width: auto;  /* Firefox */
+}

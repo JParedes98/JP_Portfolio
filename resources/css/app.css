@@ -1,3 +1,33 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/* CUSTOM */
+@import "./custom/scrollbar.css";
+@import "./custom/gallery.css";
+
+/* LIBRARIES */
+@import "aos/dist/aos.css";
+@import "@fancyapps/ui/dist/fancybox/fancybox.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        --theme-color-50: #eef6ff;
+        --theme-color-100: #cde3fa;
+        --theme-color-200: #91c4f2;
+        --theme-color-300: #6baef0;
+        --theme-color-400: #4c9dec;
+        --theme-color-500: #358ce7;
+        --theme-color-600: #2c77c7;
+        --theme-color-700: #245ea2;
+        --theme-color-800: #1c4c80;
+        --theme-color-900: #153b63;
+        --theme-color-950: #0c223a;
+
+        /* Override bulma variables */
+        --primary: var(--theme-color-500);
+    }
+}

@@ -1,0 +1,46 @@
+/* Container for the image */
+.gallery-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* gallery.css Image */
+.gallery {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Overlay on hover */
+.gallery-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Black opacity background */
+    backdrop-filter: blur(8px); /* Blur effect */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* FontAwesome Eye Icon */
+.gallery-container .eye-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Hover effects */
+.gallery-container:hover::before,
+.gallery-container:hover .eye-icon {
+    opacity: 1;
+}
