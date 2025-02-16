@@ -73,20 +73,9 @@ const prev = () => carouselRef.value.prev();
             </div>
 
             <div data-aos="fade-up-left" class="relative ms-4">
-                <Gallery
-                    :options="{
-                        Carousel: {
-                            infinite: false,
-                        },
-                    }">
+                <img class="gallery w-full rounded-2xl" src="/img/JoseParedes-Full.png" alt="">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/JoseParedes-Full.png" class="gallery-container">
-                        <img class="gallery w-full rounded-2xl" src="/img/JoseParedes-Full.png" alt="">
-                        <i class="fa fa-eye eye-icon cursor-pointer"></i>
-                    </a>
-                </Gallery>
-
-                <div class="absolute bottom-0 start-0">
+                <div class="absolute -bottom-0.5 start-0">
                     <svg class="w-2/3 ms-auto h-auto text-white" width="630" height="451" viewBox="0 0 630 451" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="531" y="352" width="99" height="99" fill="#eef6ff"/>
                         <rect x="140" y="352" width="106" height="99" fill="#eef6ff"/>

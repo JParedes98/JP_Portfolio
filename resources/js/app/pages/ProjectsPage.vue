@@ -1,14 +1,10 @@
 <template>
     <div class="flex flex-col space-y-24">
         <NocNoc/>
-
-        <NocNoc/>
-
-        <NocNoc/>
     </div>
 </template>
 <script>
-import NocNoc from "./Projects/NocNoc.vue";
+import NocNoc from "./projects/NocNoc.vue";
 export default {
     name: 'ProjectsPage',
     components: {
