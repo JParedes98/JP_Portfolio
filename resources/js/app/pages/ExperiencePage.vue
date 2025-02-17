@@ -91,10 +91,10 @@
                 <Gallery
                     class="group block relative overflow-hidden rounded-lg"
                     :options="{
-                                Carousel: {
-                                    infinite: false,
-                                },
-                            }">
+                        Carousel: {
+                            infinite: false,
+                        },
+                    }">
 
                     <a data-fancybox="gallery" href="http://localhost/img/experience/filecloud_login.png" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/filecloud_login.png" alt="">
