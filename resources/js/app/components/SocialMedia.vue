@@ -25,17 +25,6 @@
                 Github
             </small>
         </button>
-
-
-        <button class="flex aspect-square min-h-[24px] w-14 flex-col items-center justify-center gap-1 rounded-xl p-0.5 transition-all duration-150 text-neutral-500 hover:bg-theme-50 hover:text-theme-500">
-            <span class="w-5 h-5 text-center">
-                <i class="fa-regular fa-envelope"></i>
-            </span>
-
-            <small class="text-center text-xs font-medium">
-                Email
-            </small>
-        </button>
     </aside>
 </template>
 

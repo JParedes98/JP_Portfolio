@@ -43,7 +43,6 @@ const prev = () => carouselRef.value.prev();
 .logo-style {
     width: 80px;
     height: 80px;
-    //background-color: white;
     object-fit: contain;
     display: block;
     margin: 0 auto;

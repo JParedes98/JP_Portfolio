@@ -91,7 +91,7 @@
                 },
             }">
 
-                <a data-fancybox="gallery" href="http://localhost/img/projects/noc_noc_website.png" class="gallery-container">
+                <a data-fancybox="gallery" :href="backend_url('/img/projects/noc_noc_website.png')" class="gallery-container">
                     <img class="gallery w-full size-60 object-cover rounded-2xl" src="/img/projects/noc_noc_website.png" alt="">
                     <i class="fa fa-eye eye-icon cursor-pointer"></i>
                 </a>
@@ -104,7 +104,7 @@
                 },
             }">
 
-                <a data-fancybox="gallery" href="http://localhost/img/projects/noc_noc_menu.webp" class="gallery-container">
+                <a data-fancybox="gallery" :href="backend_url('/img/projects/noc_noc_menu.webp')" class="gallery-container">
                     <img class="gallery w-full size-60 object-cover rounded-2xl" src="/img/projects/noc_noc_menu.webp" alt="">
                     <i class="fa fa-eye eye-icon cursor-pointer"></i>
                 </a>
@@ -117,7 +117,7 @@
                 },
             }">
 
-                <a data-fancybox="gallery" href="http://localhost/img/projects/noc_noc_control_panel.png" class="gallery-container">
+                <a data-fancybox="gallery" :href="backend_url('/img/projects/noc_noc_control_panel.png')" class="gallery-container">
                     <img class="gallery w-full size-60 object-cover rounded-2xl" src="/img/projects/noc_noc_control_panel.png" alt="">
                     <i class="fa fa-eye eye-icon cursor-pointer"></i>
                 </a>
@@ -130,9 +130,9 @@
             </h3>
 
             <button class="btn btn-primary inline-flex items-center rounded-2xl text-white">
-            <span>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </span>
+                <span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </span>
 
                 <a target="_blank" href="https://nocnoc.app" class="flex flex-col items-start ml-2 leading-none">
                     <span class="mb-1 text-xs font-light">CLICK TO</span>
@@ -209,7 +209,7 @@
                 },
             }">
 
-                <a data-fancybox="gallery" href="http://localhost/img/projects/bpv_media.png" class="gallery-container">
+                <a data-fancybox="gallery" :href="backend_url('/img/projects/bpv_media.png')" class="gallery-container">
                     <img class="gallery w-full size-60 object-cover rounded-2xl" src="/img/projects/bpv_media.png" alt="">
                     <i class="fa fa-eye eye-icon cursor-pointer"></i>
                 </a>
@@ -222,7 +222,7 @@
                 },
             }">
 
-                <a data-fancybox="gallery" href="http://localhost/img/projects/bpv_device_storage.png" class="gallery-container">
+                <a data-fancybox="gallery" :href="backend_url('/img/projects/bpv_device_storage.png')" class="gallery-container">
                     <img class="gallery w-full size-60 object-cover rounded-2xl" src="/img/projects/bpv_device_storage.png" alt="">
                     <i class="fa fa-eye eye-icon cursor-pointer"></i>
                 </a>
@@ -235,7 +235,7 @@
                 },
             }">
 
-                <a data-fancybox="gallery" href="http://localhost/img/projects/bpv_device_terminal.png" class="gallery-container">
+                <a data-fancybox="gallery" :href="backend_url('/img/projects/bpv_device_terminal.png')" class="gallery-container">
                     <img class="gallery w-full size-60 object-cover rounded-2xl" src="/img/projects/bpv_device_terminal.png" alt="">
                     <i class="fa fa-eye eye-icon cursor-pointer"></i>
                 </a>

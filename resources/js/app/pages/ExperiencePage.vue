@@ -96,7 +96,7 @@
                         },
                     }">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/experience/filecloud_login.png" class="gallery-container">
+                    <a data-fancybox="gallery" :href="backend_url('/img/experience/filecloud_login.png')" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/filecloud_login.png" alt="">
                         <i class="fa fa-eye eye-icon cursor-pointer"></i>
                     </a>
@@ -110,7 +110,7 @@
                                 },
                             }">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/experience/filecloud_home.png" class="gallery-container">
+                    <a data-fancybox="gallery" :href="backend_url('/img/experience/filecloud_home.png')" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/filecloud_home.png" alt="">
                         <i class="fa fa-eye eye-icon cursor-pointer"></i>
                     </a>
@@ -124,7 +124,7 @@
                                 },
                             }">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/experience/filecloud_profile.png" class="gallery-container">
+                    <a data-fancybox="gallery" :href="backend_url('/img/experience/filecloud_profile.png')" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/filecloud_profile.png" alt="">
                         <i class="fa fa-eye eye-icon cursor-pointer"></i>
                     </a>
@@ -138,7 +138,7 @@
                                 },
                             }">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/experience/filecloud_admin.png" class="gallery-container">
+                    <a data-fancybox="gallery" :href="backend_url('/img/experience/filecloud_admin.png')" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/filecloud_admin.png" alt="">
                         <i class="fa fa-eye eye-icon cursor-pointer"></i>
                     </a>
@@ -190,7 +190,7 @@
                                 },
                             }">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/experience/proforma.jpg" class="gallery-container">
+                    <a data-fancybox="gallery" :href="backend_url('/img/experience/proforma.jpg')" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/proforma.jpg" alt="">
                         <i class="fa fa-eye eye-icon cursor-pointer"></i>
                     </a>
@@ -247,7 +247,7 @@
                                 },
                             }">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/experience/hdf_portal_login.jpg" class="gallery-container">
+                    <a data-fancybox="gallery" :href="backend_url('/img/experience/hdf_portal_login.jpg')" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/hdf_portal_login.jpg" alt="">
                         <i class="fa fa-eye eye-icon cursor-pointer"></i>
                     </a>
@@ -261,7 +261,7 @@
                                 },
                             }">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/experience/hdf_portal_home.jpg" class="gallery-container">
+                    <a data-fancybox="gallery" :href="backend_url('/img/experience/hdf_portal_home.jpg')" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/hdf_portal_home.jpg" alt="">
                         <i class="fa fa-eye eye-icon cursor-pointer"></i>
                     </a>
@@ -290,7 +290,7 @@
                                 },
                             }">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/experience/hdf_website.jpg" class="gallery-container">
+                    <a data-fancybox="gallery" :href="backend_url('/img/experience/hdf_website.jpg')" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/hdf_website.jpg" alt="">
                         <i class="fa fa-eye eye-icon cursor-pointer"></i>
                     </a>
@@ -304,7 +304,7 @@
                                 },
                             }">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/experience/hdf_website_music.png" class="gallery-container">
+                    <a data-fancybox="gallery" :href="backend_url('/img/experience/hdf_website_music.png')" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/hdf_website_music.png" alt="">
                         <i class="fa fa-eye eye-icon cursor-pointer"></i>
                     </a>
@@ -318,7 +318,7 @@
                                 },
                             }">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/experience/hdf_website_misc.png" class="gallery-container">
+                    <a data-fancybox="gallery" :href="backend_url('/img/experience/hdf_website_misc.png')" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/hdf_website_misc.png" alt="">
                         <i class="fa fa-eye eye-icon cursor-pointer"></i>
                     </a>
@@ -373,7 +373,7 @@
                                 },
                             }">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/experience/pixelpay_website.jpg" class="gallery-container">
+                    <a data-fancybox="gallery" :href="backend_url('/img/experience/pixelpay_website.jpg')" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/pixelpay_website.jpg" alt="">
                         <i class="fa fa-eye eye-icon cursor-pointer"></i>
                     </a>
@@ -387,7 +387,7 @@
                                 },
                             }">
 
-                    <a data-fancybox="gallery" href="http://localhost/img/experience/pixelpay_login.jpg" class="gallery-container">
+                    <a data-fancybox="gallery" :href="backend_url('/img/experience/pixelpay_login.jpg')" class="gallery-container">
                         <img class="gallery w-full rounded-2xl" src="/img/experience/pixelpay_login.jpg" alt="">
                         <i class="fa fa-eye eye-icon cursor-pointer"></i>
                     </a>
