@@ -23,7 +23,7 @@ class ContactController extends Controller
 
         Mail::raw($request->message, function ($message) {
             $message
-                ->to(env('CONTACT_EMAIL_TO'))
+                ->to(config('app.contact_to'))
                 ->subject('Contact From My Website!');
         });
 

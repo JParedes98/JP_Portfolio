@@ -15,6 +15,8 @@ return [
 
     'name' => env('APP_NAME', 'Jose Paredes | Fullstack Dev'),
 
+    'contact_to' => env('APP_CONTACT_TO', ''),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
